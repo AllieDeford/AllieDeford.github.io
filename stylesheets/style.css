@@ -1,0 +1,74 @@
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h6 {
+	font-size: 1.1em;
+}
+
+
+.navbar-custom {
+    background-color:#27ae60;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color:#fff;
+    background-color:#94D7B0;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:#27ae60;
+}
+
+.navbar-custom .navbar-brand {
+    color:#fff;
+}
+
+.about-me-content {
+	background: url("../images/squares.png");
+	padding-bottom: 10px; 
+	border-bottom: solid 3px #27ae60;
+}
+
+.profile-img {
+	width: 270px; 
+	float:right;
+}
+
+.card {
+	text-align: center; 
+	margin: 15px; 
+    background-color:#27ae60;
+    color:#fff;
+    padding:5px; 
+    -moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.card:hover {
+    background-color:#94D7B0;
+    cursor: pointer;
+}
+
+.card img {
+	width:80%;
+}
+
+.green-color {
+    background-color:#27ae60;
+}
