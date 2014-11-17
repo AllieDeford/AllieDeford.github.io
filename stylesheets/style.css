@@ -61,7 +61,8 @@ h6 {
 }
 
 .card:hover {
-    background-color:#94D7B0;
+	box-shadow: 10px 10px 5px #888888;
+
     cursor: pointer;
 }
 
