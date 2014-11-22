@@ -51,6 +51,7 @@ h6 {
 }
 
 .card {
+    display: block;
 	text-align: center; 
 	margin: 15px; 
     background-color:#27ae60;
@@ -58,6 +59,7 @@ h6 {
     padding:5px; 
     -moz-border-radius: 15px;
 	border-radius: 15px;
+    height:200px; 
 }
 
 .card:hover {
@@ -68,8 +70,17 @@ h6 {
 
 .card img {
 	width:80%;
+    vertical-align: bottom;
+}
+
+.card .img-container {
+    height:150px;
 }
 
 .green-color {
     background-color:#27ae60;
+}
+
+.modal-body img {
+    max-width: 100%; 
 }
