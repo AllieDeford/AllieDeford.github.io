@@ -1,19 +1,6 @@
 body {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
-
-h1 {
-	font-family: 'Shadows Into Light', cursive;
-}
-
-h3 {
-	font-family: 'Shadows Into Light', cursive;
-}
-
-h6 {
-	font-size: 1.1em;
-}
-
 
 .navbar-custom {
     background-color:#27ae60;
@@ -83,4 +70,17 @@ h6 {
 
 .modal-body img {
     max-width: 100%; 
+}
+
+#masthead {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    z-index: 10;
+    background-color: white;
+    padding-bottom: 20px;
+    overflow: hidden;
+    display: block;
 }
