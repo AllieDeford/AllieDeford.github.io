@@ -1,7 +1,20 @@
+@font-face {
+    font-family: 'Homestead'; /*a name to be used later*/
+    src: url('../resources/Homestead-Display.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Homestead Plain'; /*a name to be used later*/
+    src: url('../resources/Homestead-Regular.ttf'); /*URL to font*/
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
+ h1 {
+    font-family: Homestead;
+    font-size: 5em;
+ }
 .navbar-custom {
     background-color:#27ae60;
     color:#ffffff;
@@ -73,7 +86,7 @@ body {
 }
 
 #masthead {
-    left: 0px;
+    right: 0px;
     top: 0px;
     position: fixed;
     height: 100%;
@@ -83,4 +96,10 @@ body {
     padding-bottom: 20px;
     overflow: hidden;
     display: block;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
