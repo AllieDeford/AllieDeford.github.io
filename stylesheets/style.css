@@ -15,6 +15,11 @@ body {
     font-family: Homestead;
     font-size: 5em;
  }
+
+h2 {
+    font-family: Homestead;
+    font-size: 3.5em; 
+ }
 .navbar-custom {
     background-color:#27ae60;
     color:#ffffff;
@@ -102,4 +107,45 @@ body {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.picture { 
+    background-color: #F9F9F9;
+    border: 1px solid #CCCCCC; 
+    padding: 3px;
+    font-size: 11px;
+    width:25%;
+
+}
+
+.picture img { 
+    border: 1px solid #CCCCCC;
+    vertical-align:middle; 
+    margin-bottom: 3px; 
+    width:100%;
+}
+
+.right { 
+    margin: 0.5em 0pt 0.5em 0.8em; 
+    float:right; 
+}
+
+.left { 
+    margin: 0.5em 0.8em 0.5em 0; 
+    float:left; 
+}
+
+li a {
+    color:black;
+}
+
+li a:hover {
+    color:gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    display: inline; 
+    margin-left: 10px;
 }
